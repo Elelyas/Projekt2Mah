@@ -16,6 +16,8 @@ void task_VinkelGivare(void *pvParameters)
 	while (1) {
 		vTaskDelayUntil(&xLastWakeTime, xTimeIncrement); /*
 		Wait for the next cycle. */
+		
+
 	}
 	vTaskDelete( NULL );  // För en clean exit av tasken ( Kanske ej behövs)
 }

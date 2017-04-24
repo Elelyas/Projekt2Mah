@@ -116,9 +116,6 @@
 // From module: USART - Univ. Syn Async Rec/Trans
 #include <usart.h>
 
-// From module: WDT - Watchdog Timer
-#include <wdt.h>
-
 // From module: pio_handler support enabled
 #include <pio_handler.h>
 

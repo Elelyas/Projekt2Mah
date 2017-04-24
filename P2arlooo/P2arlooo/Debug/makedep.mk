@@ -4,6 +4,8 @@
 
 src\Delays\delay.c
 
+src\Tasks\task_BLINKA.c
+
 src\Tasks\task_LED.c
 
 src\Tasks\task_VinkelGivare.c
@@ -35,8 +37,6 @@ src\ASF\sam\drivers\tc\tc.c
 src\ASF\sam\drivers\uart\uart.c
 
 src\ASF\sam\drivers\usart\usart.c
-
-src\ASF\sam\drivers\wdt\wdt.c
 
 src\ASF\sam\utils\cmsis\sam3x\source\templates\exceptions.c
 

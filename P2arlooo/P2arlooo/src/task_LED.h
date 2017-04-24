@@ -6,11 +6,10 @@
  */ 
 
 
-
 #ifndef TASK_LED_H_
 #define TASK_LED_H_
 #define TASK_LED_STACK_SIZE     (1024/sizeof(portSTACK_TYPE))
-#define TASK_LED_STACK_PRIORITY    (1)//tskIDLE_PRIORITY
+#define TASK_LED_STACK_PRIORITY    (3)//tskIDLE_PRIORITY
 
 
 void task_LED(void *pvParameters);
